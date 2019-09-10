@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   s.homepage     = giturl
   s.license      = "MIT"
   s.authors      = "Naoufal Kadhom", "Andrej Badin"
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '9.0'
   s.source       = { :git => "https://github.com/naoufal/react-native-payments.git", :tag => "#{s.version}" }
-  s.source_files  = 'packages/react-native-payments/lib/ios/*.{h,m}'
+  s.source_files  = 'lib/ios/*.{h,m}'
   s.requires_arc = true
 
 end
